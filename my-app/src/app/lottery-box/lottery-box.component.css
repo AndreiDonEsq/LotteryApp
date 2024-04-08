@@ -1,0 +1,17 @@
+.selected {
+    color: #000000; 
+    background-color: #ccffff; 
+    border-radius: 10px; 
+    animation: glow 1s infinite alternate; 
+    text-align: center; 
+    vertical-align: middle; 
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 5px #ccffff; 
+    }
+    to {
+        box-shadow: 0 0 10px #55d2f1; 
+    }
+}

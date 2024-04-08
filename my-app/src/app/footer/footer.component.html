@@ -1,0 +1,13 @@
+<footer class="black-footer">
+    <div class="container">
+        <p> Tickets would go here: </p>
+        <div>
+            <div *ngFor="let ticket of tickets; index as i" class="button-like" (click)="onClickTicket(ticket)">
+                Ticket {{i+1}} here
+            </div>
+
+        </div>
+    </div>
+
+
+</footer>

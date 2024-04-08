@@ -1,0 +1,7 @@
+<table>
+    <tbody>
+        <tr *ngFor="let row of rows">
+            <td *ngFor="let item of row" [ngClass]="{'selected': item === 'x'}">{{ item }}</td>
+        </tr>
+    </tbody>
+</table>

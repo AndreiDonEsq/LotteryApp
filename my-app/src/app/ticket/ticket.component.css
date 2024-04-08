@@ -1,0 +1,38 @@
+.lottery-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+.ticket-container {
+  margin-top: 10px;
+  margin-bottom: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.ticket {
+  background-color: #ccffcc;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.superzahl-container {
+  margin-top: 10px;
+  border: 3px solid #ffd700;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: #ffeb3b;
+  box-shadow: 0 0 20px #ffd700;
+  color: #000;
+  font-size: 24px;
+  text-align: center;
+}
